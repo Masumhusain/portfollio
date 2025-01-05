@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif , Arial, Helvetica, sans-serif;
+   scrollbar-width: none;
+}
+:root{
+    --color: rgb(41, 35, 35);
+    --seccolor: white;
+     --dark : black;
+
+}
+body{
+    height:100vh;
+    width: 100vw;
+}
+
+
+nav{
+    background-color: var(--color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    width: 100vw;
+    font-size: 2em;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 1em;
+}
+a{
+    color: var(--seccolor);
+    margin-left: 2em;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav-logo{
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+/* main content styling */
+main{
+    display: flex;
+}
+.section1{
+    height: 100vh;
+    width: 50vw;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.section2{
+    height: 100%;
+    width: 50%;
+   background-color: var(--dark) ;
+   color: var(--seccolor);
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.myName{
+    margin: 10px 0px 0px 30px;
+    font-size: 4em;
+}
+
+.description{
+    margin: 200px 0px 0px 30px;
+}
+
+.click{
+    margin-top: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 8px 15px 8px 15px; 
+}
+
+i{
+   font-size: 1.6em;
+   padding: 8px 15px 8px 15px; 
+}
+.active,
+a:hover{
+    background-color: var(--seccolor);
+    color: black;
+    border-radius: 22px;
+}
+button:hover{
+   opacity: 0.9;
+}
